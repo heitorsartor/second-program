@@ -3,8 +3,100 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 section#score {
     background-image: linear-gradient(to bottom, rgb(2, 2, 255), rgb(54, 54, 119));
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+section#score .paragraph, h1, div {
+    padding: 10px;
+}
+
+section#score div {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+section#score div p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section#score div p strong {
+    font-size: 4em;
+}
+
+section#score p.paragraph {
+    text-align: center;
+}
+
+section#summary {
+    padding: 0px 30px;
+}
+
+section#summary h2 {
+    padding: 15px 0px;
+}
+
+section#summary div {
+    margin: 10px 0px;
+}
+
+section#summary div#red {
+    background-color: rgba(255, 0, 0, 0.048);
+    border-radius: 10px;
+    list-style-type: none;
+    columns: 2;
+}
+
+li {
+    display: inline;
+    justify-content: space-between;
+    
+}
+
+section#summary div#yellow {
+    background-color: rgba(255, 255, 0, 0.048);
+    border-radius: 10px;                    
+    list-style-type: none;
+    columns: 2;
+}
+
+section#summary div#green {
+    background-color: rgba(0, 255, 0, 0.048);
+    border-radius: 10px;
+    list-style-type: none;
+    columns: 2;
+}
+
+section#summary div#blue {
+    background-color: rgba(0, 0, 255, 0.048);
+    border-radius: 10px;
+    list-style-type: none;
+    columns: 2;
+}
+
+button {
+    background-color: rgba(15, 15, 95, 0.555);
+    color: white;
+    width: 90vw;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
 }
